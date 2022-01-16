@@ -71,11 +71,12 @@ export default {
   methods: {
     clearMornData() {
       this.$store.commit("clearMorningData")
+      this.$router.go()
     },
     clearEvenData() {
       this.$store.commit("clearEveningData")
+      this.$router.go()
     },
-
     show() {
       this.$router.push({ name: "About" });
     },
