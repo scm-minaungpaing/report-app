@@ -25,7 +25,7 @@
     </div>
 
     <div v-if="!(morningFetchData || eveningFetchData)">
-      <h2>Ther is no Report in Here</h2>
+      <h2>There is no Report in Here</h2>
       <router-link to="/" class="btn btn-md btn-secondary">Back</router-link>
     </div>
   </div>
